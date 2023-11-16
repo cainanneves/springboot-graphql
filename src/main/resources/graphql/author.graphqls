@@ -1,0 +1,12 @@
+type Author {
+    id: Int
+    fullname: String!
+    email: String!
+    books: [Book]
+}
+
+input AuthorInput {
+    fullname: String!
+    email: String!
+}
+
